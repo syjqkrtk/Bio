@@ -1,0 +1,67 @@
+function name = GetName(num)
+
+names = zeros(59,23);
+names(1,:) = 'Goldfish               ';
+names(2,:) = 'Akamata                ';
+names(3,:) = 'Gummyshark             ';
+names(4,:) = 'Sheep                  ';
+names(5,:) = 'Turtle                 ';
+names(6,:) = 'Fruitbat               ';
+names(7,:) = 'Redheadduck            ';
+names(8,:) = 'Peregrinefalcon        ';
+names(9,:) = 'Broadbill              ';
+names(10,:) = 'Vilageindigobird       ';
+names(11,:) = 'Fatdormouse            ';
+names(12,:) = 'Rabbit                 ';
+names(13,:) = 'Pig                    ';
+names(14,:) = 'Hippopotamus           ';
+names(15,:) = 'Guineapig              ';
+names(16,:) = 'Squirell               ';
+names(17,:) = 'Cebusalbifrons         ';
+names(18,:) = 'Pigmychimpanzee        ';
+names(19,:) = 'Gorilla                ';
+names(20,:) = 'Orangutan              ';
+names(21,:) = 'Commonchimpanzee       ';
+names(22,:) = 'Rainbowtrout           ';
+names(23,:) = 'Lungfish               ';
+names(24,:) = 'Xenopuslaevis          ';
+names(25,:) = 'Plecoglossusaltivelis  ';
+names(26,:) = 'Tarsiusbancanus        ';
+names(27,:) = 'Lemurcatta             ';
+names(28,:) = 'Sealamprey             ';
+names(29,:) = 'Atlanticsalmon         ';
+names(30,:) = 'Bichir                 ';
+names(31,:) = 'Coelocanth             ';
+names(32,:) = 'Dog                    ';
+names(33,:) = 'Cow                    ';
+names(34,:) = 'Human                  ';
+names(35,:) = 'Mouse                  ';
+names(36,:) = 'Rat                    ';
+names(37,:) = 'Domesticchicken        ';
+names(38,:) = 'Carp                   ';
+names(39,:) = 'Finwhale               ';
+names(40,:) = 'Harborseal             ';
+names(41,:) = 'Grayseal               ';
+names(42,:) = 'Bluewhale              ';
+names(43,:) = 'Platypus               ';
+names(44,:) = 'Hedgehog               ';
+names(45,:) = 'Indianrhinoceros       ';
+names(46,:) = 'Donkey                 ';
+names(47,:) = 'Gibbon                 ';
+names(48,:) = 'AtlanticCod            ';
+names(49,:) = 'Whiterhinoceros        ';
+names(50,:) = 'Wallaroo               ';
+names(51,:) = 'Armadillo              ';
+names(52,:) = 'Ostrich                ';
+names(53,:) = 'Alligator              ';
+names(54,:) = 'Dogfish                ';
+names(55,:) = 'Lancelet               ';
+names(56,:) = 'Rhea                   ';
+names(57,:) = 'Baboon                 ';
+names(58,:) = 'Spinydogfish           ';
+names(59,:) = 'Opossum                ';
+
+name = char(names(num,:));
+
+end
+
